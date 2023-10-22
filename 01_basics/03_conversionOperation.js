@@ -33,3 +33,18 @@ let someNumber = 33
 let StringNumber = String(someNumber)
 console.log(StringNumber);
 console.log(typeof StringNumber);
+
+// ************** Operations *****************
+
+let value = 3
+let negValue = -value;
+console.log(negValue); // will print negative value that is -3
+
+/* ***************Some Tricky Conversions****************** */
+
+console.log("1" + 2); // will print 12
+console.log(1 + "2"); // will also print 12
+console.log("1" + 2 + 2); // will print 122 ( will convert everything in string )
+console.log(1 + 2 + "2"); // will print 32 ( Because of Ecma Script Guidlines)
+console.log(+true); // will print 1
+console.log(+""); // will print 0
