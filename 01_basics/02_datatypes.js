@@ -2,7 +2,7 @@
 
  /* Data Types 
 
-    --> Primitive 
+    --> Primitive ( Call by value )
 
     - number ==> 2 to power 53
     - bigint 
@@ -12,9 +12,12 @@
     - undefined ==> not defined 
     - symbol ==> unique
 
-    --> Non Primitive 
+    --> Non Primitive ( Reference )
 
     - object  
+    - Arrays
+    - Function 
+    
  */
 
     console.log(typeof undefined); // undefined 
