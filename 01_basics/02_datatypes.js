@@ -22,3 +22,9 @@
 
     console.log(typeof undefined); // undefined 
     console.log(typeof null); // object
+
+    /* *********************** Memory ***************** */
+
+    // Stack (Primitive) --> copy  , Heap (Non-Primitive) --> reference
+
+   
